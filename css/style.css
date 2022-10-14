@@ -1,0 +1,17 @@
+.headerPrincipal .container{
+    border: 2px black solid ;
+    padding-top: 34px;
+    padding-bottom: 66px;
+}
+.headerPrincipal-Titulo{
+    padding-left: 15px;
+}
+.titulo{
+    text-decoration: none;
+    color: #000;
+}
+.headerPrincipal-nav-link{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}

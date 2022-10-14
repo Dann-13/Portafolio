@@ -1,0 +1,12 @@
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerPrincipal-nav{
+    display: flex;
+}
