@@ -1,5 +1,5 @@
 .container {
-	width: 94%;
+	width: 85%;
 	margin: 0 auto;
 }
 .headerPrincipal .container{
@@ -9,4 +9,20 @@
 }
 .headerPrincipal-nav{
     display: flex;
+}
+
+.seccionPrincipal-sobremi .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px black solid ;
+}
+.sobreMi-1{
+    display: flex;
+    flex-direction: column;
+}
+.sobreMiInfo .container{
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid ;
 }

@@ -14,4 +14,41 @@
     padding: 10px;
     text-decoration: none;
     color: #000;
+    font-size: 16px;
+    
+}
+.sobremiTitulo{
+    font-size: 52px;
+    margin-bottom: 24px;
+}
+.sobremiInfo{
+    font-size: 22px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.fotoPerfil{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    padding-bottom: 32px;
+}
+.redesSociales-link{
+    padding-left: 60px;
+}
+.sobreMiInfo .container{
+    padding-top: 64px;
+}
+.sobreMiInfo-titulo-mi{
+    padding-bottom: 16px;
+    font-size: 32px;
+}
+.sobreMiInfo-text{
+    padding-right: 537px;
+}
+.sobreMiInfo-text-1{
+    padding-bottom: 16px;
+}
+.sobreMiInfo-text-firma{
+    padding-bottom: 64px;
 }
