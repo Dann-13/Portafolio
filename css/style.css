@@ -8,24 +8,30 @@
 }
 .titulo{
     text-decoration: none;
-    color: #000;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
 }
 .headerPrincipal-nav-link{
     padding: 10px;
     text-decoration: none;
-    color: #000;
+    color: #464646;
     font-size: 16px;
-    
+    font-family: 'Raleway', sans-serif;
 }
 .sobremiTitulo{
     font-size: 52px;
     margin-bottom: 24px;
+    color: #464646;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
 }
 .sobremiInfo{
     font-size: 22px;
     margin-bottom: 26px;
     font-weight: 400;
     line-height: 26px;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
 }
 .fotoPerfil{
     width: 368px;
@@ -33,8 +39,16 @@
     border-radius: 50%;
     padding-bottom: 32px;
 }
+.gitlink{
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
 .redesSociales-link{
     padding-left: 60px;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
 .sobreMiInfo .container{
     padding-top: 64px;
@@ -42,13 +56,27 @@
 .sobreMiInfo-titulo-mi{
     padding-bottom: 16px;
     font-size: 32px;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 .sobreMiInfo-text{
     padding-right: 537px;
 }
 .sobreMiInfo-text-1{
     padding-bottom: 16px;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
 }
 .sobreMiInfo-text-firma{
     padding-bottom: 64px;
+}
+.titulo-skills{
+    padding-bottom: 32px;
+    font-size: 26px;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+}
+.skills-list-items{
+    padding: 94px 136px 8px 16px;
 }
