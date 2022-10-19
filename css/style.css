@@ -1,31 +1,40 @@
-.headerPrincipal .container{
-    border: 2px black solid ;
+body {
+    background-color: #F5F5F5;
+}
+
+.headerPrincipal .container {
+    border: 2px black solid;
     padding-top: 34px;
     padding-bottom: 66px;
 }
-.headerPrincipal-Titulo{
+
+.headerPrincipal-Titulo {
     padding-left: 15px;
 }
-.titulo{
+
+.titulo {
     text-decoration: none;
     color: #464646;
     font-family: 'Raleway', sans-serif;
 }
-.headerPrincipal-nav-link{
+
+.headerPrincipal-nav-link {
     padding: 10px;
     text-decoration: none;
     color: #464646;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
 }
-.sobremiTitulo{
+
+.sobremiTitulo {
     font-size: 52px;
     margin-bottom: 24px;
     color: #464646;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
 }
-.sobremiInfo{
+
+.sobremiInfo {
     font-size: 22px;
     margin-bottom: 26px;
     font-weight: 400;
@@ -33,50 +42,181 @@
     color: #464646;
     font-family: 'Raleway', sans-serif;
 }
-.fotoPerfil{
-    width: 368px;
-    height: 368px;
+
+.fotoPerfil {
+    height: 300px;
     border-radius: 50%;
     padding-bottom: 32px;
 }
-.gitlink{
+
+.gitlink {
     color: #464646;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
-.redesSociales-link{
+
+.redesSociales-link {
     padding-left: 60px;
     color: #464646;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
-.sobreMiInfo .container{
+
+.sobreMiInfo .container {
     padding-top: 64px;
 }
-.sobreMiInfo-titulo-mi{
+
+.sobreMiInfo-titulo-mi {
     padding-bottom: 16px;
     font-size: 32px;
     color: #464646;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
-.sobreMiInfo-text{
+
+.sobreMiInfo-text {
     padding-right: 537px;
 }
-.sobreMiInfo-text-1{
+
+.sobreMiInfo-text-1 {
     padding-bottom: 16px;
     color: #464646;
     font-family: 'Raleway', sans-serif;
 }
-.sobreMiInfo-text-firma{
+
+.sobreMiInfo-text-firma {
     padding-bottom: 64px;
 }
-.titulo-skills{
+
+.titulo-skills {
     padding-bottom: 32px;
     font-size: 26px;
     color: #464646;
     font-family: 'Raleway', sans-serif;
 }
-.skills-list-items{
+
+.skills-list-items {
     padding: 94px 136px 8px 16px;
+}
+
+.seccion-academica {
+    background-color: #EAF2FD;
+}
+
+.academicaTitulo h2 {
+    font-size: 32px;
+    padding-top: 82px;
+    padding-bottom: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #464646;
+}
+
+.claseLogos1 {
+    height: 70px;
+}
+
+.logos {
+    width: 30%;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    padding: 40px;
+}
+
+.academiaInfos {
+    margin-top: 8px;
+    width: 30%;
+}
+
+.academiaInfoTitulo {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+
+.detallesProyecto {
+    margin-left: 16px;
+}
+
+.detalles-item1 {
+    font-size: 22px;
+    padding-bottom: 6px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.detalles-item {
+    font-size: 19px;
+    padding-bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.botonesProyectos1 {
+    border: 2px #2A7AE4 solid;
+    padding: 16px;
+    color: #2A7AE4;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.botonesProyectos2 {
+    border: 2px #2A7AE4 solid;
+    padding: 16px;
+    background-color: #2A7AE4;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.seccion-Contactos{
+    background-color: #EAF2FD;
+}
+.seccion-Contactos .container {
+    padding-top: 130px;
+}
+
+.detallesContacto-Titulos {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    padding-bottom: 8px;
+}
+
+.detalles-contactos {
+    margin-left: 16px;
+}
+
+.detalles-contacto {
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.elemento {
+    padding-bottom: 32px;
+}
+
+label {
+    display: block;
+    color: #A2A2A2;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    color: #525c66;
+    font-size: 1em;
+    resize: none;
 }

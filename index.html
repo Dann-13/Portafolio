@@ -37,7 +37,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas fuga sit in sed eos rem
                             <br>
                             suscipit magnam ut quae, est provident earum numquam libero rerum illo voluptates voluptatum
-                            voluptatibus?</p>
+                            voluptatibus?
+                        </p>
                     </div>
                     <div class="redesSociales">
                         <a href="" class="gitlink">GitHub</a>
@@ -120,79 +121,118 @@
         </section>
         <section class="seccion-academica" id="academica">
             <div class="container">
-                <div class="academica">
-                    <img src="" alt="img1formacion">
-                    <p>formacion 1</p>
-                    <p>abajo</p>
+                <div class="academicaTitulo">
+                    <h2>Formacion Academica</h2>
                 </div>
-                <div class="academica">
-                    <img src="" alt="img2formacion">
-                    <p>formacion 1</p>
-                    <p>abajo</p>
-                </div>
-                <div class="academica">
-                    <img src="" alt="img2formacion">
-                    <p>formacion 1</p>
-                    <p>abajo</p>
+                <div>
+                    <ul class="academiaLogos">
+                        <li class="logos">
+                            <img class="logo" src="/img/logoaaunar.png" alt="">
+                        </li>
+                        <li class="logos" style="margin-left: 20px;margin-right:20px;">
+                            <img class="logo" src="/img/alura_logo.png" alt="">
+                        </li>
+                        <li class="logos">
+                            <img class="logo" src="/img/logo-mision.png" alt="">
+                        </li>
+                    </ul>
+                    <ul class="academicainfo">
+                        <li class="academiaInfos">
+                            <p class="academiaInfoTitulo">
+                                Pregrado de Ingenieria Informatica<br>
+                            </p>
+                            <p class="academiaInfoParrafo">
+                                2019 - actual
+                            </p>
+
+                        </li>
+                        <li class="academiaInfos" style="margin-left: 8px;margin-right: 8px;">
+                            <p class="academiaInfoTitulo">
+                                Formacion en UX Desing<br>
+                            </p>
+                            <p class="academiaInfoParrafo">
+                                2022 - actual
+                            </p>
+                        </li>
+                        <li class="academiaInfos">
+                            <p class="academiaInfoTitulo">
+                                Tripulante Mision Tic<br>
+                            </p>
+                            <p class="academiaInfoParrafo">
+                                2022 - actual
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
         <section class="seccionExperiencia" id="experiencia">
             <div class="container">
-                <div class="proyecto">
-                    <img src="" alt="img1Proyecto">
+                <div class="academicaTitulo">
+                    <h2>Experiencia Profecional</h2>
+                </div>
+                <div class="proyecto1">
+                    <img class="proyectoEncriptador" src="/img/Encriptador.png" alt="img1Proyecto">
                     <div class="detallesProyecto">
                         <ul class="detalles-list">
-                            <li class="detalles-item">Encriptador de Texto</li>
+                            <li class="detalles-item1">Encriptador de Texto</li>
                             <li class="detalles-item">Challenge Alura Codificador</li>
                         </ul>
                         <div class="botonesProyectos">
-                            <button class="boton">Repositorio</button>
-                            <button class="boton">Ver Demo</button>
+                            <a class="botonesProyectos1" href="https://github.com/Dann-13/Encriptador">Repositorio</a>
+                            <a class="botonesProyectos2" href="https://dann-13.github.io/Encriptador/">Ver Demo</a>
                         </div>
                     </div>
                 </div>
                 <div class="proyecto">
                     <div class="detallesProyecto">
                         <ul class="detalles-list">
-                            <li class="detalles-item">Encriptador de Texto</li>
-                            <li class="detalles-item">Challenge Alura Codificador</li>
+                            <li class="detalles-item">Juego del Ahorcado</li>
+                            <li class="detalles-item">Challenge Oracle</li>
                         </ul>
                         <div class="botonesProyectos">
-                            <button class="boton">Repositorio</button>
-                            <button class="boton">Ver Demo</button>
+                            <a class="botonesProyectos1" href="https://github.com/Dann-13/JuegoAhorcado">Repositorio</a>
+                            <a class="botonesProyectos2" href="https://dann-13.github.io/JuegoAhorcado/">Ver Demo</a>
                         </div>
                     </div>
-                    <img src="" alt="img2Proyecto">
+                    <img class="proyectoEncriptador" src="/img/Juego.png" alt="img2Proyecto">
                 </div>
             </div>
         </section>
         <section class="seccion-Contactos" id="contactos">
             <div class="container">
-                <img src="" alt="imgContactos">
+                <img src="/img/contact_image.png" alt="imgContactos">
                 <ul class="detalles-contactos">
-                    <li class="detalles-contactos">¿Quieres Contactarme?</li>
-                    <li class="detalles-contactos">Complete el siguiente formulario y me pondre en contacto con usted
+                    <li class="detallesContacto-Titulos">Contacto</li>
+                    <li class="detalles-contacto">¿Quieres Contactarme?</li>
+                    <li class="detalles-contacto">Complete el siguiente formulario y me pondre en contacto con usted
+                    </li>
+                    <li>
+                        <form class="formulario-Contacto" action="">
+                            <div class="elemento">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="name" name="user_name" placeholder="Escribe aquí tu nombre">
+                            </div>
+                            <div class="elemento">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com"
+                                    required>
+                            </div>
+                            <div class="elemento">
+                                <label for="title" class="form-label">Asunto</label>
+                                <input type="text" name="asunto" id="asunto">
+                            </div>
+                            <div class="elemento">
+                                <label for="title" class="form-label">Mensaje</label>
+                                <textarea name="mensaje" class="mensaje" id="" cols="30" rows="10"
+                                    placeholder="Escriba su Mensaje"></textarea>
+                            </div>
+                            <div class="elemento">
+                                <button class="btn-enviarMensaje" type="button">Enviar Mensaje</button>
+                            </div>
+                        </form>
                     </li>
                 </ul>
-                <form class="formulario-Contacto" action="">
-                    <div class="elemento">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
-                    </div>
-                    <div class="elemento">
-                        <label for="title" class="form-label">Asunto</label>
-                        <input type="text" name="asunto" id="asunto">
-                    </div>
-                    <div class="elemento">
-                        <label for="title" class="form-label">Mensaje</label>
-                        <textarea name="mensaje" class="mensaje" id="" cols="30" rows="10"
-                            placeholder="Escriba su Mensaje"></textarea>
-                    </div>
-                    <div class="elemento">
-                        <button class="btn-enviarMensaje" type="button">Enviar Mensaje</button>
-                    </div>
-                </form>
             </div>
         </section>
     </main>

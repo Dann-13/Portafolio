@@ -41,4 +41,40 @@
     flex-wrap: wrap;
     padding-bottom: 88px;
 }
-
+.seccion-academica .container{
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.academiaLogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.academicainfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.proyecto1{
+    display: flex;
+    align-items: center;
+}
+.proyecto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+}
+.proyectoEncriptador{
+    width: 60%;
+}
+.detallesProyecto{
+    display: flex;
+    flex-direction: column;
+}
+.seccion-Contactos .container{
+    display: flex;
+}
