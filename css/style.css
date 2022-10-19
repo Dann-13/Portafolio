@@ -3,7 +3,6 @@ body {
 }
 
 .headerPrincipal .container {
-    border: 2px black solid;
     padding-top: 34px;
     padding-bottom: 66px;
 }
@@ -25,7 +24,9 @@ body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
 }
-
+.contenidoPrincipal{
+    padding-bottom: 65px;
+}
 .sobremiTitulo {
     font-size: 52px;
     margin-bottom: 24px;
@@ -42,9 +43,12 @@ body {
     color: #464646;
     font-family: 'Raleway', sans-serif;
 }
-
+.sobreMi-2{
+    width: 30%;
+}
 .fotoPerfil {
-    height: 300px;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
     padding-bottom: 32px;
 }
@@ -110,6 +114,7 @@ body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #464646;
+    font-weight: 700;
 }
 
 .claseLogos1 {
@@ -132,7 +137,8 @@ body {
 
 .academiaInfos {
     margin-top: 8px;
-    width: 30%;
+    width:329px;
+    padding-bottom:82px;
 }
 
 .academiaInfoTitulo {
@@ -150,12 +156,15 @@ body {
     font-size: 22px;
     padding-bottom: 6px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #464646;
 }
 
 .detalles-item {
     font-size: 19px;
     padding-bottom: 25px;
     font-family: 'Raleway', sans-serif;
+    color: #464646;
 }
 
 .botonesProyectos1 {
@@ -164,6 +173,7 @@ body {
     color: #2A7AE4;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    margin-right: 15px;
 }
 
 .botonesProyectos2 {
@@ -174,9 +184,11 @@ body {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
-.seccion-Contactos{
+
+.seccion-Contactos {
     background-color: #EAF2FD;
 }
+
 .seccion-Contactos .container {
     padding-top: 130px;
 }
@@ -186,6 +198,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #464646;
     padding-bottom: 8px;
+    font-weight: 700;
 }
 
 .detalles-contactos {
@@ -200,18 +213,23 @@ body {
 }
 
 .elemento {
-    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 label {
     display: block;
     color: #A2A2A2;
+    background-color: #fff;
+    padding-left: 12px;
+    padding-top: 8PX;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 form input,
 form textarea {
     margin-bottom: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -219,4 +237,18 @@ form textarea {
     color: #525c66;
     font-size: 1em;
     resize: none;
+}
+
+.btn-enviarMensaje {
+    font-family: 'Raleway', sans-serif;
+    padding: 16px;
+    background-color: #2A7AE4;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+.itemfooter-list{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
