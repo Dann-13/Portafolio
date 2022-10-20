@@ -80,7 +80,15 @@ table {
     display: flex;
     flex-direction: column;
 }
-
+.redesSociales{
+    display: flex;
+}
+.redesSociales-link{
+    padding-right: 60px;
+    text-decoration: none;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+}
 .seccion-skills .container {
     display: flex;
     flex-direction: column;
@@ -213,14 +221,6 @@ body {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
-
-.redesSociales-link {
-    padding-left: 60px;
-    color: #464646;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-}
-
 .sobreMiInfo .container {
     padding-top: 64px;
 }
@@ -252,8 +252,15 @@ body {
     font-size: 26px;
     color: #464646;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
-
+.titulo-hobbies{
+    padding-bottom: 32px;
+    font-size: 26px;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
 .skills-list-items {
     padding: 94px 136px 8px 16px;
 }
@@ -406,4 +413,97 @@ form textarea {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     text-align: center;
+}
+/* Responsive */
+@media(max-width: 768px){
+    .headerPrincipal-nav{
+        flex-direction: column;
+    }
+    .headerPrincipal .container{
+        flex-direction: column;
+		align-items: initial;
+		text-align: center;
+    }
+    .sobreMi-1{
+        width: 65%;
+    }
+    .sobremiInfo{
+        font-size: 16px;
+    }
+    .sobremiTitulo{
+        font-size: 22px;
+    }
+    .sobreMiInfo-text{
+        width: 100%;
+    }
+    .skills-list-items{
+        padding: 94px 136px 8px 16px;
+    }
+    .logos{
+        height: 150px;
+    }
+    .academiaInfoTitulo{
+        font-size: 16px;
+    }
+    .academiaInfos {
+        width: 32%
+    }
+    .academicainfo{
+        flex-wrap: nowrap;
+    }
+    .proyecto1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .proyectoEncriptador{
+        width: 100%;
+        order: -1;
+    }
+    .detallesProyecto{
+        margin-left: 0;
+        margin-top: 16px;
+    }
+    .proyecto{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgcontacto{
+        display: none !important;
+    }
+
+}
+@media(max-width: 360px){
+    .headerPrincipal-nav{
+        display: none !important;
+    }
+    .seccionPrincipal-sobremi .container{
+        flex-direction: column;
+    }
+    .redesSociales-link{
+        padding-right: 15px;
+    }
+    .redesSociales{
+        font-size: 14px;
+    }
+    .skillsHobbies-list{
+        width: 100%;
+    }
+    .skills-list-items{
+        width: 50%;
+        padding: 0px !important;
+        margin-top: 20px;
+    }
+    .sobreMiInfo-titulo-mi{
+        font-size: 22px;
+    }
+    .sobreMi-1{
+        width: 100%;
+    }
+    .sobreMi-2{
+        order: -1;
+        width: 50%;
+    }
+    .titulo-skills{
+        font-size: 22px;
+    }
 }
