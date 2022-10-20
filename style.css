@@ -160,6 +160,14 @@ table {
     gap: 10px;
 
 }
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+.infos{
+    background-color: #EAF2FD;
+    margin: 5px;
+}
 /*Secciones de la pagina*/
 body {
     background-color: #F5F5F5;
@@ -186,9 +194,6 @@ body {
     color: #464646;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-}
-.contenidoPrincipal{
-    padding-bottom: 65px;
 }
 .sobremiTitulo {
     font-size: 52px;
@@ -282,14 +287,21 @@ body {
 .claseLogos1 {
     height: 70px;
 }
-
-.logos {
-    width: 30%;
-    height: 250px;
+.contenedor-logos{
     background-color: #fff;
+    height: 150px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+}
+
+.logos {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
@@ -365,6 +377,7 @@ body {
 
 .detalles-contactos {
     margin-left: 16px;
+    width: 100%;
 }
 
 .detalles-contacto {
@@ -385,12 +398,12 @@ label {
     padding-left: 12px;
     padding-top: 8PX;
     font-family: 'Raleway', sans-serif;
-
+    font-size: 14px;
 }
 
 form input,
 form textarea {
-    margin-bottom: 15px;
+
     font-family: 'Raleway', sans-serif;
     width: 100%;
     padding: 10px;
@@ -401,6 +414,7 @@ form textarea {
     resize: none;
 }
 
+
 .btn-enviarMensaje {
     font-family: 'Raleway', sans-serif;
     padding: 16px;
@@ -408,6 +422,7 @@ form textarea {
     color: #fff;
     font-size: 16px;
     border: none;
+    margin-bottom: 80px;
 }
 .itemfooter-list{
     font-family: 'Raleway', sans-serif;
@@ -417,7 +432,7 @@ form textarea {
 /* Responsive */
 @media(max-width: 768px){
     .headerPrincipal-nav{
-        flex-direction: column;
+        display: none !important;
     }
     .headerPrincipal .container{
         flex-direction: column;
@@ -430,6 +445,9 @@ form textarea {
     .sobremiInfo{
         font-size: 16px;
     }
+    .sobreMiInfo-titulo-mi{
+        font-size: 22px;
+    }
     .sobremiTitulo{
         font-size: 22px;
     }
@@ -439,9 +457,16 @@ form textarea {
     .skills-list-items{
         padding: 94px 136px 8px 16px;
     }
-    .logos{
-        height: 150px;
+    .titulo-skills{
+        font-size: 22px;
     }
+    .titulo-hobbies{
+        font-size: 22px;
+    }
+    .academicaTitulo h2{
+        font-size: 22px;
+    }
+    
     .academiaInfoTitulo{
         font-size: 16px;
     }
@@ -469,6 +494,12 @@ form textarea {
     }
     .imgcontacto{
         display: none !important;
+    }
+    .detallesContacto-Titulos{
+        font-size: 22px;
+    }
+    .detalles-contacto{
+        font-size: 16px;
     }
 
 }
@@ -505,5 +536,25 @@ form textarea {
     }
     .titulo-skills{
         font-size: 22px;
+    }
+    .academiaLogos{
+        flex-direction: column;
+    }
+    .logos{
+        width: 100%;
+    }
+    .academiaLogos{
+        font-size: 22px;
+        font-weight: 700
+    }
+    .infos{
+        margin-bottom: 16px;
+    }
+    .academiaInfoParrafo{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .detalles-contactos{
+        margin: 0;
     }
 }
