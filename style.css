@@ -70,7 +70,9 @@ table {
     align-items: center;
     justify-content: space-between;
 }
-
+.sobreMiInfo{
+    background-color: #EAF2FD;
+}
 .sobreMi-1 {
     display: flex;
     flex-direction: column;
@@ -105,6 +107,9 @@ table {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 88px;
+}
+.tamaño-Icons{
+    height: 50px;
 }
 
 .seccion-academica .container {
@@ -210,9 +215,6 @@ body {
     line-height: 26px;
     color: #464646;
     font-family: 'Raleway', sans-serif;
-}
-.sobreMi-2{
-    width: 30%;
 }
 .fotoPerfil {
     width: 100%;
