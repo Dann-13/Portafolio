@@ -238,10 +238,10 @@
                     <li class="detalles-contacto">Complete el siguiente formulario y me pondre en contacto con usted
                     </li>
                     <li>
-                        <form class="formulario-Contacto" action="">
+                        <form id="formulario" class="formulario-Contacto" action="">
                             <div class="elemento">
                                 <label for="nombre">Nombre</label>
-                                <input type="text" id="name" name="user_name" placeholder="Escribe aquí tu nombre">
+                                <input id="nombre" type="text" id="name" name="user_name" placeholder="Escribe aquí tu nombre">
                             </div>
                             <div class="elemento">
                                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -258,7 +258,7 @@
                                     placeholder="Escriba su Mensaje"></textarea>
                             </div>
                             <div class="elemento">
-                                <button class="btn-enviarMensaje" type="button">Enviar Mensaje</button>
+                                <button class="btn-enviarMensaje" id="enviar" type="submit" >Enviar Mensaje</button>
                             </div>
                         </form>
                     </li>
@@ -276,6 +276,7 @@
             </section>
         </div>
     </footer>
+    <script src="validacion.js"></script>
 </body>
 
 </html>
