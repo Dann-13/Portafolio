@@ -505,7 +505,7 @@ form textarea {
     }
 
 }
-@media(max-width: 360px){
+@media(max-width: 375px){
     .headerPrincipal-nav{
         display: none !important;
     }
@@ -547,8 +547,10 @@ form textarea {
     }
     .academiaLogos{
         font-size: 22px;
-        font-weight: 700
+        font-weight: 700;
+        flex-direction: column;
     }
+    
     .infos{
         margin-bottom: 16px;
     }
