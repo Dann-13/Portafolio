@@ -505,7 +505,7 @@ form textarea {
     }
 
 }
-@media(max-width: 375px){
+@media only screen and (max-width: 600px){
     .headerPrincipal-nav{
         display: none !important;
     }
