@@ -132,6 +132,7 @@ table {
 }
 
 .proyecto1 {
+    margin-top: 25px;
     display: flex;
     align-items: center;
 }
@@ -186,11 +187,8 @@ body {
 .headerPrincipal-Titulo {
     padding-left: 15px;
 }
-
-.titulo {
-    text-decoration: none;
-    color: #464646;
-    font-family: 'Raleway', sans-serif;
+.logo{
+    height: 150px;
 }
 
 .headerPrincipal-nav-link {
@@ -514,9 +512,15 @@ form textarea {
     }
     .redesSociales-link{
         padding-right: 15px;
+        padding-bottom: 15px;
+    }
+    .redesSociales__list{
+        padding-bottom: 15px;
     }
     .redesSociales{
         font-size: 14px;
+        display: flex;
+        flex-direction: column;
     }
     .skillsHobbies-list{
         width: 100%;
@@ -558,7 +562,23 @@ form textarea {
         font-family: 'Raleway', sans-serif;
         font-size: 14px;
     }
+    .botonesProyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .botonesProyectos1{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .detallesProyecto{
+        width: 100%;
+    }
     .detalles-contactos{
         margin: 0;
+    }
+    .rodapePrincipal .container{
+        padding: 0 !important;
+
     }
 }
